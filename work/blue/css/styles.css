@@ -1,0 +1,138 @@
+body
+{
+	background-image: url(../blue/resources/background.png);
+}
+
+nav
+{
+  display: block;
+  width: 760px;
+  margin: 0 auto 30px;
+}
+
+.logo
+{
+	height: 250px;
+	width: 575px;
+	padding-right: 70px;
+}
+
+.menu li 
+{
+  display: inline;
+}
+
+.menu ul
+{
+  display: -webkit-flex; 
+  display: flex;
+  padding-left: 2em;
+}
+
+.menu a
+{
+  text-decoration: none;
+  padding: 1em;
+  background: rgba(27, 140, 171, 1);
+  border-right: 1px solid #1b8cab;
+  color: white;
+  font-family: Century Gothic, Sans-serif;
+  font-size: 18px;
+}
+
+.menu a:hover
+{
+	text-decoration: underline; 
+	background: #167fc9;
+}
+
+table
+{
+	-moz-column-count: 4;
+    -webkit-column-count: 4;
+	border-collapse: separate;
+	align: center;
+	border-spacing: 40px 1px;
+	border: 5px;
+
+}
+
+.desk img
+{
+	height: 125px;
+	width: 125px;
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.desk img:hover
+{
+	-webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(0.9);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(0.9);   
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(0.9);
+    transition: all 100ms ease-in;
+    transform: scale(0.9);
+}
+
+.learning_desk img
+{
+	height: 250px;
+	width: 250px;
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.learning_desk img:hover
+{
+	-webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(0.9);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(0.9);   
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(0.9);
+    transition: all 100ms ease-in;
+    transform: scale(0.9);
+}
+
+details
+{
+	cursor: pointer;
+	width: 450px;
+}
+
+details:focus,
+summary:focus {
+	outline: 0;
+	outline: none;
+}
+
+.planner
+{
+	width: 50%;
+}
+
+
+.sign
+{
+	position: auto;	
+	bottom: 5px;
+	font-family: Century Gothic, Sans-serif;
+	font-size: 10px;
+	opacity: 0.3;
+	cursor: default;
+}
