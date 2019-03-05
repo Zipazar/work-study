@@ -1,12 +1,18 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Дирекция Эксплуатации</title>
 <link href="../blue/css/styles.css" rel="stylesheet">
-<link rel="shortcut icon" href="..\blue\resources\favicon.ico" type="image/x-icon">
-</head>
+<link rel='stylesheet prefetch' href='../blue/scripts/jquery.fancybox.min.css'>
+<script src='../blue/scripts/jquery.fancybox.min.js'></script>
+<script>
+$(function() {
+$("[data-fancybox]").fancybox();
+});
+</script>
 
+</head>
 <body>
 <header>
 <center>
@@ -22,6 +28,20 @@
 	</nav>
 	</center>
 </header>
+	<table class="actual_desk">
+	<tr>
+	<td><a href="https://bgp.he.net/AS8342#_asinfo" data-fancybox="iframe"><img src="../blue/resources/netinf.png"></a></td>
+	<td><a data-fancybox data-type="iframe" href='http://jodies.de/ipcalc?host=192.168.0.1&mask1=24&mask2'><img src="../blue/resources/ipcalc.png"></a></td>
+	</tr>
+	<tr>
+		<td><a href='https://www.windy.com/?55.739,37.607,5' data-fancybox='iframe' ><img src="../blue/resources/weather.png"></a></td>
+		<td><a href='https://drive.google.com/file/d/1TuH6DeE1t2iNhefUWXX0L9r6FPkLMODN/view' data-fancybox='iframe' ><img src="../blue/resources/escalation.png"></a></td>
+	</tr>
+	<tr>
+		<td><a href='https://www.dishpointer.com' data-fancybox data-type='iframe' ><img src="../blue/resources/dishpointer.png"></a></td>
+		<td><a href='https://www.satbeams.com' data-fancybox='iframe' ><img src="../blue/resources/satbeams.png"></a></td>
+	</tr>
+	</table>
 <center>
 	<p class="sign">Created by T.Alexandrov , RTComm 2019</p>
 </center>

@@ -1,6 +1,6 @@
 body
 {
-	background-image: url(../blue/resources/background.png);
+	background-image: url(background.png);
 }
 
 nav
@@ -49,7 +49,7 @@ nav
 table
 {
 	-moz-column-count: 4;
-    -webkit-column-count: 4;
+  -webkit-column-count: 4;
 	border-collapse: separate;
 	align: center;
 	border-spacing: 40px 1px;
@@ -70,7 +70,6 @@ table
     transition: all 200ms ease-in;
     transform: scale(1);
 }
-
 .desk img:hover
 {
 	-webkit-transition: all 100ms ease-in;
@@ -96,10 +95,39 @@ table
     transition: all 200ms ease-in;
     transform: scale(1);
 }
-
 .learning_desk img:hover
 {
 	-webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(0.9);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(0.9);   
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(0.9);
+    transition: all 100ms ease-in;
+    transform: scale(0.9);
+}
+
+.actual_desk
+{
+  border-spacing: 5px 1px;
+  border: 5px;
+}
+.actual_desk img
+{
+  height: 125px;
+  width: 200px;
+  -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+.actual_desk img:hover
+{
+  -webkit-transition: all 100ms ease-in;
     -webkit-transform: scale(0.9);
     -ms-transition: all 100ms ease-in;
     -ms-transform: scale(0.9);   
