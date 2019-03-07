@@ -4,44 +4,60 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Дирекция Эксплуатации</title>
 <link href="../blue/css/styles.css" rel="stylesheet">
-<link rel='stylesheet prefetch' href='../blue/scripts/jquery.fancybox.min.css'>
-<script src='../blue/scripts/jquery.fancybox.min.js'></script>
-<script>
-$(function() {
-$("[data-fancybox]").fancybox();
-});
-</script>
-
+<link rel="shortcut icon" href="..\blue\resources\favicon.ico" type="image/x-icon">
 </head>
 <body>
-<header>
-<center>
-<p><img class="logo" src="..\blue\resources\logo.png"></p><br>
-	<nav class="menu">
-	<ul>
-	<li><a href="../blue/main.htm">Главная</a></li>
-	<li><a href="https://www.rtcomm.ru">Сайт РТКомм</a></li>
-	<li><a href="https://www.sensat.ru">SenSat</a></li>
-	<li><a href="http://195.161.0.252/address/all_adr_book.asp">Адресная книга</a></li>
-	<li><a href="https://intranet.rtcomm.ru/index.php?login=yes">Интранет</a></li>
-	</ul>
-	</nav>
+	<header>
+	<center>
+	<p><img class="logo" src="..\blue\resources\logo.png"></p><br>
+		<nav class="menu">
+		<center>
+		<ul>
+		<li><a href="../blue/main.htm">Главная</a></li>
+		<li><a href="https://www.rtcomm.ru">Сайт РТКомм</a></li>
+		<li><a href="https://www.sensat.ru">SenSat</a></li>
+		<li><a href="http://195.161.0.252/address/all_adr_book.asp">Адресная книга</a></li>
+		<li><a href="https://intranet.rtcomm.ru/index.php?login=yes">Интранет</a></li>
+		</ul>
+		</center>
+		</nav>
 	</center>
-</header>
+	</header>
+
+<div id="general">
 	<table class="actual_desk">
 	<tr>
-	<td><a href="https://bgp.he.net/AS8342#_asinfo" data-fancybox="iframe"><img src="../blue/resources/netinf.png"></a></td>
-	<td><a data-fancybox data-type="iframe" href='http://jodies.de/ipcalc?host=192.168.0.1&mask1=24&mask2'><img src="../blue/resources/ipcalc.png"></a></td>
+	<td><a href="https://bgp.he.net/AS8342#_asinfo" target="iframe_a"><img src="../blue/resources/netinf.png"></a></td>
+	<td><a href='http://jodies.de/ipcalc?host=192.168.0.1&mask1=24&mask2'target="iframe_a"><img src="../blue/resources/ipcalc.png"></a></td>
 	</tr>
 	<tr>
-		<td><a href='https://www.windy.com/?55.739,37.607,5' data-fancybox='iframe' ><img src="../blue/resources/weather.png"></a></td>
-		<td><a href='https://drive.google.com/file/d/1TuH6DeE1t2iNhefUWXX0L9r6FPkLMODN/view' data-fancybox='iframe' ><img src="../blue/resources/escalation.png"></a></td>
+	<td><a href='https://www.gismeteo.ru' target="iframe_a"><img src="../blue/resources/weather.png"></a></td>
+	<td><a href="../blue/content/escalation.pdf" target="iframe_a"><img src="../blue/resources/escalation.png"></a></td>
 	</tr>
 	<tr>
-		<td><a href='https://www.dishpointer.com' data-fancybox data-type='iframe' ><img src="../blue/resources/dishpointer.png"></a></td>
-		<td><a href='https://www.satbeams.com' data-fancybox='iframe' ><img src="../blue/resources/satbeams.png"></a></td>
+	<td><a href='https://www.dishpointer.com' target="iframe_a"><img src="../blue/resources/dishpointer.png"></a></td>
+	<td><a href='https://www.satbeams.com' target="iframe_a"><img src="../blue/resources/satbeams.png"></a></td>
 	</tr>
 	</table>
+
+	<iframe src="" name="iframe_a" width="60%" height="100%" frameborder="0"></iframe>
+
+	<table class="actual_desk">
+	<tr>
+	<td><a href="../blue/desk.htm" target="iframe_a"><img src="../blue/resources/desk.png"></a></td>
+	<td><a href=''target="iframe_a"><img src="../blue/resources/logo.png"></a></td>
+	</tr>
+	<tr>
+	<td><a href='' target="iframe_a"><img src="../blue/resources/logo.png"></a></td>
+	<td><a href='' target="iframe_a"><img src="../blue/resources/logo.png"></a></td>
+	</tr>
+	<tr>
+	<td><a href='' target="iframe_a"><img src="../blue/resources/logo.png"></a></td>
+	<td><a href='' target="iframe_a"><img src="../blue/resources/logo.png"></a></td>
+	</tr>
+	</table>	
+</div>
+
 <center>
 	<p class="sign">Created by T.Alexandrov , RTComm 2019</p>
 </center>

@@ -1,0 +1,62 @@
+body
+{
+	background-color: #78dfff;
+}
+
+nav
+{
+  display: block;
+  width: 760px;
+  margin: 0 auto 30px;
+}
+
+.menu li 
+{
+  display: inline;
+}
+
+.menu ul
+{
+  display: -webkit-flex; 
+  display: flex;
+  padding-left: 12.5em;
+}
+
+.menu a
+{
+  text-decoration: none;
+  padding: 1em;
+  background: rgba(27, 140, 171, 1);
+  border-right: 1px solid #1b8cab;
+  color: white;
+  font-family: Century Gothic, Sans-serif;
+  font-size: 18px;
+}
+
+.menu a:hover
+{
+	text-decoration: underline; 
+	background: #167fc9;
+}
+
+details
+{
+	cursor: pointer;
+	width: 450px;
+}
+
+details:focus,
+summary:focus {
+	outline: 0;
+	outline: none;
+}
+
+.sign
+{
+	position: auto;	
+	bottom: 5px;
+	font-family: Century Gothic, Sans-serif;
+	font-size: 10px;
+	opacity: 0.3;
+	cursor: default;
+}

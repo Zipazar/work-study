@@ -10,6 +10,12 @@ nav
   margin: 0 auto 30px;
 }
 
+#general
+{
+  height: 600px;
+  display: flex;
+}
+
 .logo
 {
 	height: 250px;
@@ -26,7 +32,7 @@ nav
 {
   display: -webkit-flex; 
   display: flex;
-  padding-left: 2em;
+  
 }
 
 .menu a
@@ -153,7 +159,6 @@ summary:focus {
 {
 	width: 50%;
 }
-
 
 .sign
 {
